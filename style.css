@@ -1,0 +1,177 @@
+body{
+    padding:0;
+    margin: 5px;
+    border: 5px solid rgb(107, 234, 107); 
+    outline: 5px solid green;
+}
+
+#img{
+    margin: 0;
+    padding: 0;
+    background-image: url(./night.jpg);
+    background-repeat:no-repeat;
+    background-size: 1600px 5000px;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    align-items: center;    
+}
+
+.nav1{
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 20px 40px 50px 20px;
+    border: 5px solid red;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.nav2{
+
+    border: 2px solid white;
+    text-align: center;
+    width: 30%;
+    background-color: purple;
+    color: white;
+    font-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px 5px 20px;
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: black;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.nav3{
+    text-align: center;
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 10px 60px 10px 60px;
+    border: 5px solid red;
+    border-radius: 40px;
+    line-height: 15px;
+    font-style: italic;
+    font-size: 20px;
+    margin-left:500px;
+    margin-top: 25px;
+}
+
+.circle{
+    width: 400px;
+    height: 400px;
+    background-color:#198162;
+    color: white;
+    border: 5px solid #3e4240;
+    text-align: center;
+    /* padding: 9px; */
+    border-radius: 50%;
+    font-style: bold;
+    text-decoration: underline;
+    line-height: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:100px
+}
+
+.circle{
+    margin-top: 100px;
+}
+
+.circont{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.form{
+    width: 25%;
+    border: 5px dashed red;
+    background-color: white;
+    color: rgb(168, 59, 59);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#dob{
+    width: 165px;
+}
+
+.form label{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: rgb(221, 218, 218);
+}
+
+
+.menu{
+    width: 30%;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 50px;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 20%;
+    height: auto;
+    padding: 2px;
+    background-color: #198162;
+    border: 5px solid rgb(4, 92, 4);
+    border-radius: 40px;
+    text-align: center;
+    color:rgb(40, 22, 94);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.hrcard{
+    height: 1px;
+    background-color: red;
+}
+
+.cards h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.space{
+    margin-top: 50px;
+}
