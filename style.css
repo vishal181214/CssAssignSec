@@ -77,7 +77,6 @@ body{
     color: white;
     border: 5px solid #3e4240;
     text-align: center;
-    /* padding: 9px; */
     border-radius: 50%;
     font-style: bold;
     text-decoration: underline;
@@ -113,6 +112,9 @@ body{
     align-items: center;
 }
 
+.form input{
+    text-align: center;
+}
 #dob{
     width: 165px;
 }
